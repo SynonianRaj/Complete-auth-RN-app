@@ -21,20 +21,24 @@ This project is not bug-free and may have **minor or major bugs**. Additionally,
 ## Setup Instructions
 
 ### Backend (Django)
-1. Clone the repository and navigate to the `AuthApi-drf` folder:
+1. Clone the repository
    ```bash
    git clone https://github.com/SynonianRaj/Complete-auth-RN-app
-   cd Complete-auth-RN-app/AuthApi-drf
    ```
-2. Install dependencies:
+2. Navigate to the `AuthApi-drf` folder:
+
+   ```bash
+      cd Complete-auth-RN-app/AuthApi-drf
+   ```
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Apply migrations:
+5. Apply migrations:
    ```bash
    python manage.py migrate
    ```
-4. Start the Django server:
+6. Start the Django server:
    ```bash
    python manage.py runserver
    ```
